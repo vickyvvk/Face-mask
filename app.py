@@ -9,7 +9,7 @@ sign_names = {
 
 st.title("Face mask Classifier")
 
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg","png"])
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg","png","jpeg"])
 if uploaded_file is not None:
 
         image = Image.open(uploaded_file)
